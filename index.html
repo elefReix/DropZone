@@ -4,18 +4,34 @@
     <meta charset="utf-8">
     <script src="dist/dropzone.js" type="test/javascript"/>
     <link rel="stylesheet" type="text/css" href="dist/dropzone.css">
+    <script src="setup.js" type="test/javascript"></script>
+    <style>
+      #dropzone{
+        padding:24px;
+        border-style: dashed;
+        font-size: 36pt;
+        width: 50%;
+      }
+    </style>
     <title>Drag and Drop  </title>
+
   </head>
   <body>
+    Hola mundo
+    <p id="dropzone"> Drag your file </p>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <form action="subir.php" class="dropzone" id="dropzone">
       <div class="fallback">
         <input type="file" name="file" multiple id="archivos">
       </div>
     </form>
 
-    <script type="test/javascript">
+    <script type="text/javascript">
       var = dropzone = new Dropzone("#archivos",{url:'subir.php'});
     </script>
-
   </body>
 </html>
