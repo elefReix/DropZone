@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <script src="dist/dropzone.js" type="test/javascript"/>
-    <link rel="stylesheet" type="text/css" href="dist/dropzone.css">
+    <script src="dist/dropzone.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="dist/dropzone.css"/>
     <title>Drag and Drop  </title>
   </head>
   <body>
@@ -13,7 +13,7 @@
       </div>
     </form>
 
-    <script type="test/javascript">
+    <script type="text/javascript">
       var = dropzone = new Dropzone("#archivos",{url:'subir.php'});
     </script>
 
